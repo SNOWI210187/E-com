@@ -1,0 +1,79 @@
+/* src/components/Login.css */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* White background for contrast */
+    border: 1px solid #e2e8f0; /* Soft gray border */
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #2f855a; /* Shade of green */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #4a5568; /* Neutral gray for labels */
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #cbd5e0; /* Soft gray */
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #2f855a; /* Highlighted border */
+    box-shadow: 0 0 5px rgba(47, 133, 90, 0.5); /* Green glow */
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    background-color: #2f855a; /* Shade of green */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #22543d; /* Darker green */
+    transform: scale(1.02); /* Subtle scale effect */
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+  }
+  
+  .login-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .login-container a:hover {
+    text-decoration: underline;
+  }
+  
